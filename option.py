@@ -19,8 +19,6 @@ parser.add_argument('--seed', type=int, default=1,
                     help='random seed')
 
 # Data specifications
-# parser.add_argument('--dir_data', type=str, default='/home/shiyanshi/项目代码/雷鹏程/遥感论文/遥感数据集/',
-#                     help='dataset directory')
 parser.add_argument('--dir_data', type=str, default='/home/shiyanshi/项目代码/雷鹏程/数据集/',
                     help='dataset directory')
 parser.add_argument('--dir_demo', type=str, default='../test',
